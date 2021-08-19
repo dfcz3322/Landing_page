@@ -344,6 +344,26 @@ body {
     height: 480px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
 }
+.sixth-banner__swiper {
+    width: 650px;
+    height: 260px;
+    margin-left: 135px;
+    overflow: hidden;
+}
+.sixth-banner__swiper .swiper-slide-next {
+    opacity: 0.5;
+}
+.sixth-banner__slide {
+    border: 1px solid var(--border-color);
+    width: 425px;
+    height: 175px;
+    background-color: white;
+    text-align: center;
+    color: #676f95;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
 .sixth-banner__heading {
     color: var(--blue-color);
     font-weight: bold;
